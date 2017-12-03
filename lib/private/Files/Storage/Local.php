@@ -46,7 +46,7 @@ class Local extends \OC\Files\Storage\Common {
 
 	protected $dataDirLength;
 
-	protected $allowSymlinks = false;
+	protected $allowSymlinks = true;
 
 	protected $realDataDir;
 
